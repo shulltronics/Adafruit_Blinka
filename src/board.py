@@ -212,13 +212,16 @@ elif board_id == ap_board.SIFIVE_UNLEASHED:
     from adafruit_blinka.board.hifive_unleashed import *
 
 elif board_id == ap_board.PINE64:
-    from adafruit_blinka.board.pine64 import *
+    from adafruit_blinka.board.pine64.pine64 import *
 
 elif board_id == ap_board.PINEH64:
-    from adafruit_blinka.board.pineH64 import *
+    from adafruit_blinka.board.pine64.pineH64 import *
 
 elif board_id == ap_board.SOPINE:
-    from adafruit_blinka.board.soPine import *
+    from adafruit_blinka.board.pine64.soPine import *
+
+elif board_id == ap_board.PINEPHONE:
+    from adafruit_blinka.board.pine64.pinephone import *
 
 elif board_id == ap_board.CLOCKWORK_CPI3:
     from adafruit_blinka.board.clockworkcpi3 import *
