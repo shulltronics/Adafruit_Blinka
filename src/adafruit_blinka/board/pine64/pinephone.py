@@ -10,6 +10,7 @@ from adafruit_blinka.microcontroller.allwinner.a64 import pin
 #BLUE_LED  = pin.PD20
 MOTOR     = pin.PD2
 FLASH     = pin.PC3
+INT       = pin.PL12
 
 # TODO: find pin map for rear pogo connectors
 # SDA = D2

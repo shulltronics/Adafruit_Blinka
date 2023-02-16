@@ -74,6 +74,8 @@ PL3 = Pin((0, 3))
 PL8 = Pin((0, 8))
 PL9 = Pin((0, 9))
 PL10 = Pin((0, 10))
+PL11 = Pin((0, 11))
+PL12 = Pin((0, 12))
 
 # ordered as i2cId, sclId, sdaId
 i2cPorts = ((1, TWI1_SCL, TWI1_SDA), (2, TWI2_SCL, TWI2_SDA))
